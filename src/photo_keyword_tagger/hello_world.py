@@ -6,10 +6,10 @@ A simple hello world module for demonstration purposes.
 def say_hello(name: str = "World") -> str:
     """
     Returns a personalized greeting.
-    
+
     Args:
         name: The name to greet (default: "World")
-        
+
     Returns:
         A greeting string
     """
@@ -23,4 +23,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

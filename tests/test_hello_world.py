@@ -1,6 +1,5 @@
 """Tests for the hello_world module."""
 
-import pytest
 from photo_keyword_tagger.hello_world import say_hello
 
 
@@ -20,4 +19,3 @@ def test_say_hello_empty_string():
     """Test say_hello with empty string."""
     result = say_hello("")
     assert result == "Hello, ! Welcome to Photo Keyword Tagger."
-

@@ -38,4 +38,3 @@ When working on this project:
 4. Document all public APIs with docstrings
 5. Update README.md with new features
 6. Use type hints consistently
-
