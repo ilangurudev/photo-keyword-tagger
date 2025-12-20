@@ -1,0 +1,103 @@
+People
+    Family
+        Parents
+        Children
+        Siblings
+    Friends
+Animals
+    Mammals
+        Dog
+        Cat
+        Horse
+        Wildlife
+            Bear
+            Deer
+            Fox
+    Birds
+        Eagle
+        Hawk
+        Songbird
+    Insects
+        Butterfly
+        Bee
+Landscape
+    Mountain
+    Beach
+    Forest
+    Desert
+    Lake
+    River
+    Waterfall
+Architecture
+    Building
+    Bridge
+    Tower
+    Church
+    Modern
+    Historic
+Nature
+    Flora
+        Flowers
+        Trees
+        Plants
+    Seasons
+        Spring
+        Summer
+        Fall
+        Winter
+    Weather
+        Sunny
+        Cloudy
+        Rain
+        Snow
+        Fog
+Events
+    Wedding
+    Birthday
+    Concert
+    Sports
+    Travel
+Activities
+    Hiking
+    Swimming
+    Running
+    Photography
+    Cooking
+Colors
+    Red
+    Blue
+    Green
+    Yellow
+    Black
+    White
+    Colorful
+    Monochrome
+Style
+    Portrait
+    Landscape-Orientation
+    Abstract
+    Macro
+    Street-Photography
+    Documentary
+Mood
+    Happy
+    Peaceful
+    Dramatic
+    Energetic
+    Melancholic
+Time-of-Day
+    Sunrise
+    Morning
+    Midday
+    Afternoon
+    Sunset
+    Evening
+    Night
+    Golden-Hour
+    Blue-Hour
+Location
+    Urban
+    Rural
+    Indoor
+    Outdoor
+    Studio

@@ -1,0 +1,185 @@
+[1. Genre] [Pick at least one form this list]
+	street photography [when it's of people/animals in public settings (including natural). Something that evokes a sense of life. Most likely the right choice if there're people/animals]
+	landscape photography [when it's of a panoramic city or lanscape]
+	aerial [used when a photo seems to be taken from an aerial view]
+	architecture
+	astro
+		aurora
+	everyday [used for a daily casual photo in and around the home]
+	portrait [used for when a person is clearly the subject of the photo]
+	sports
+		football
+	still life [used for inanimate objects]
+	travel photography [Lower likelihood than landscape and street photography tags. Use only when NOT clearly street or landscape. Usually there are NO people/animals in these photos]
+[2. Style]
+	black and white
+	contrast [when a photo has strong color contrast]
+	dramatic [when a photo is EXTREMELY dramatic]
+	dreamy [when a photo looks painterly and pastel]
+	earthen [when a photo is DOMINANTLY brown and reminsecent of the EARTHY BROWN edit]
+	filmy [when something is EXTREMELY reminsecent of the classic film look]
+	gritty [when a photo is coarse, destaturated and gritty (mostly street)]
+	high contast [used for high contrast black and white photographs]
+	portrait orientation
+[3. Technique] [Should be used when a technique has been CLEARLY used, not vaguely.]
+	action
+	blur
+	center
+	[Colors]
+		blue
+		gold
+		red
+		yellow
+		green
+	flare
+	focus stack
+	frame fill
+	frame within frame
+	human interest [ONLY when there is a TINY human element in a huge frame just to lend a sense of scale. Not when the human is front and center.]
+	layers
+	leading lines
+	long exposure
+	macro
+	negative space
+	panning
+	pano
+	patterns
+	reflection
+	rule of thirds
+	silhouette
+	symmetry
+	tripod
+[4. Subjects] [Anything in this category should be chosen only when they are the MAIN SUBJECT of the photo. It must be there and not inferred.]
+	Animals
+		birds
+		deer
+		dogs
+		fish
+		horse
+		marmot
+		squirrel
+		wildlife
+		cats
+	food
+		street food
+	[Nature]
+		bug
+		flowers
+		leaf
+		moon
+		mountain
+		nature
+		plants
+		rainbow
+		sea stack
+		sun
+		waterfall
+	skyline
+	[Things]
+		bicycle
+		boat
+		bus
+		camera
+		cars
+			car
+		cigarette
+		feet
+		ferris wheel
+		fireworks
+		flag
+		flight
+		hands
+		idol
+		kite
+		lights [when there are bright artificial lights that the photo is about]
+			neon
+		ship
+		shoes
+		signage
+		umbrella
+		windmill
+		window
+[5. Concepts] [Multiple tags can be used, think about it in abstract, extrapolative terms. Tags under this should refer to the "IDEA" of xyz]
+	abstract
+	artist
+	balance
+	candid [When one person is photographed being natural and candid]
+	couple
+	crowd
+	dance
+	family
+	fitness
+	friends
+	funny
+	game
+	grad
+	graffiti
+	grand
+	hike
+	indian
+		saree
+	journey
+	juxtaposition
+	kids
+	memory
+	messy
+	odd
+	old
+	risque [Used for things that might be NSFW]
+	road
+	shop
+	sleep
+	solitude
+	travel
+	vendors
+	walking
+	workers
+[6. Place]
+	aquarium
+	beach
+	bridge
+	cabin
+	cafe
+	church
+	concert
+	dc
+	domino park
+	eatery
+	ferry
+	florida
+	forest
+	glass museum
+	gas station
+	home
+	house
+	hotel
+	kenwood
+	landmark
+	nightclub
+	rainier
+	space needle
+	train
+	tysons
+	pier [used when a pier can be seen]
+[7. Weather]
+	cloud [When the photo features clouds predominantly not when there is a cloud in any part.]
+	evening
+	fall
+	morning
+	night
+	rainy
+	snow
+	stormy
+	sunny
+	sunrise
+	sunset
+[8. Events]
+	anniversary
+	birthday
+	cherry blossom
+	event
+	holiday
+	new year
+	stranger clients
+[Misc]
+	text

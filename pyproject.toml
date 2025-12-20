@@ -7,7 +7,14 @@ authors = [
     { name = "Gurudev Ilangovan", email = "ilangurudev@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "google-genai>=1.0.0",
+    "tqdm>=4.66.0",
+    "click>=8.0.0"
+]
+
+[project.scripts]
+photo-keyword-tagger = "photo_keyword_tagger.cli:main"
 
 [project.optional-dependencies]
 dev = [
@@ -15,6 +22,7 @@ dev = [
     "pytest-cov>=4.1.0",
     "ruff>=0.8.0",
     "pre-commit>=4.0.0",
+    "ipykernel>=7.1.0"
 ]
 
 [build-system]
