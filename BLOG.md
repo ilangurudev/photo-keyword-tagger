@@ -1,21 +1,21 @@
 ---
-title: "I Built a Photo Keywording Tool in a Weekend (And It's Actually Good)"
-description: "How AI-assisted development makes it absurdly easy to build real software—complete with tests, linting, and all the things that used to feel like overhead."
+title: "I Built a Photo Keywording Tool in a Weekend"
+description: "Using AI to build a real tool with tests, linting, and all the things that used to feel like overhead."
 pubDate: 2024-12-20
 tags: ["ai", "python", "photography", "llm", "software-development"]
 ---
 
-# I Built a Photo Keywording Tool in a Weekend (And It's Actually Good)
+# I Built a Photo Keywording Tool in a Weekend
 
 I have around 15,000 photos in my Lightroom catalog. Most of them have zero keywords. Searching for "that sunset shot from last year" means scrolling through months of thumbnails hoping my brain recognizes it before my eyes give out.
 
 So I built a tool that uses AI to automatically keyword my photos based on my existing Lightroom taxonomy.
 
-The wild part? It took a weekend. And it has tests. And pre-commit hooks. And a CLI. The kind of stuff that used to feel like "professional overhead" that would triple my development time.
+It took a weekend. And it has tests. And pre-commit hooks. And a CLI. The kind of stuff that used to feel like overkill for a personal project.
 
 ## The Real Story Here
 
-This isn't really a post about photo management. It's about something that's been nagging at me: **the barrier to creating software has never been lower.**
+This isn't really a post about photo management. It's about how much easier it's become to build things.
 
 A year ago, I would have looked at this problem and thought:
 - "I'd need to figure out how to read XMP metadata"
@@ -27,9 +27,9 @@ And I probably would have given up before starting.
 
 Now? I built the whole thing by having a conversation with an AI and being very opinionated about how I wanted each piece to work.
 
-## The Opinionated Workflow (This Is The Secret)
+## The Opinionated Workflow
 
-Here's what I've learned about building with AI: **don't offload the whole thing.** Break it down. Be specific. Direct the AI piece by piece like you're the architect and it's an extremely fast junior developer.
+Here's what I've learned about building with AI: don't try to offload the whole thing. Break it down. Be specific. Direct the AI piece by piece.
 
 My workflow looked like this:
 
@@ -47,7 +47,7 @@ Each step was a focused conversation. Each step produced working, tested code. B
 
 ## The Three-Step Core
 
-The actual workflow is beautifully simple:
+The actual workflow is pretty simple:
 
 ### 1. Find the XMP File
 
@@ -68,7 +68,7 @@ This recursively searches your photo library to find `DSC00089.ARW` when you giv
 
 ### 2. Generate Keywords with AI
 
-Here's where the LLM magic happens. I feed Gemini the image and my actual Lightroom taxonomy:
+I feed Gemini the image along with my actual Lightroom taxonomy:
 
 ```python
 prompt = """I have a keyword taxonomy from my Lightroom catalog.
@@ -137,7 +137,7 @@ Every commit runs linting, formatting, and the full test suite. If tests fail, t
 
 A year ago, setting this up would have felt like overkill for a weekend project. Now? I asked the AI to set it up and it was done in minutes. The "professional" touches that used to add days of friction now add minutes.
 
-And here's the thing: **these touches matter.** When the AI inevitably introduces a regression (and it does), the tests catch it. When I come back to this code in six months, the consistent formatting means I can actually read it.
+These touches matter more than you'd think. When the AI introduces a regression (and it does), the tests catch it. When I come back to this code in six months, the consistent formatting means I can actually read it.
 
 ## Tests That Actually Test Things
 
@@ -181,11 +181,11 @@ photo-keyword-tagger \
 
 It finds the RAW files, checks they have XMP sidecars, generates keywords, and writes them. Then I go back to Lightroom, select the photos, and hit "Read Metadata from Files."
 
-Done. 15,000 photos become searchable.
+That's it. Now I can actually search my library.
 
 ## The Honest Part
 
-AI-assisted development isn't magic. A few observations:
+A few observations from doing this:
 
 **You still need to know what you're building.** I knew I needed to find files, call an API, and write XMP metadata. The AI helped me execute each step faster, but I still designed the architecture.
 
@@ -197,15 +197,11 @@ AI-assisted development isn't magic. A few observations:
 
 ## What This Means
 
-The gap between "I have an idea" and "I have working software" has collapsed. Not for everything—complex systems still need real engineering. But for tools like this? Personal utilities that solve specific problems?
+For complex systems, you still need real engineering. But for tools like this—personal utilities that solve specific problems—the friction is a lot lower than it used to be.
 
-The friction is gone.
+I spent years not building things because the setup cost felt too high. Now I can build things in weekends that would have taken weeks, and they end up better because I can afford to include the "optional" quality stuff that I would have skipped before.
 
-I spent years not building things because the setup cost felt too high. Now I build things in weekends that would have taken weeks, and they're *better* because I can afford to include all the "optional" quality stuff.
-
-If you've been sitting on an idea because "it would take too long" or "it's not worth the setup"—try it. Break it into pieces. Direct the AI step by step. Add the tests and the linting because they're basically free now.
-
-You might surprise yourself.
+If you've been sitting on an idea because "it would take too long" or "it's not worth the setup"—maybe give it a shot. Break it into pieces. Direct the AI step by step. Add the tests and the linting because they're basically free now.
 
 ---
 
